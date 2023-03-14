@@ -7,8 +7,8 @@ Console.Write("Введите 3-ое число: ");
 int c = int.Parse(Console.ReadLine()!);
 int Max = a;
 if (Max < b)
-      Console.WriteLine(b);
+      Console.WriteLine($"Max = {b}");
 else if (Max < c)
-    Console.WriteLine(c);
+    Console.WriteLine($"Max = {c}");
 else
-    Console.WriteLine(a);
+    Console.WriteLine($"Max = {a}");
